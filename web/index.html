@@ -1,36 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" >
-		<title>OpenBike1</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" href="i/favicon.png" type="image/x-icon">
-		<!-- AOS 3.0.0-beta.6 plugin CSS (Animations) -->
-		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-		<!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&subset=latin&display=swap" rel="stylesheet">
-		<!-- Startup CSS + Bootstrap CSS (Styles for all blocks) - Remove ".min" if you want to edit a css code -->
-		<link href="css/styles.min.css" rel="stylesheet" />
-		<!-- jQuery 3.6.0 (uncomment line below if you need jQuery) -->
-		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
-	</head>
-	<body>
-<!-- Navigation 3 -->
+
+<head>
+	<meta charset="utf-8">
+	<title>OpenBike1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="i/favicon.png" type="image/x-icon">
+	<!-- AOS 3.0.0-beta.6 plugin CSS (Animations) -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<!-- Google Fonts -->
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&subset=latin&display=swap"
+		rel="stylesheet">
+	<!-- Startup CSS + Bootstrap CSS (Styles for all blocks) - Remove ".min" if you want to edit a css code -->
+	<link href="css/styles.min.css" rel="stylesheet" />
+	<!-- jQuery 3.6.0 (uncomment line below if you need jQuery) -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-PGE0LTZJ53"></script>
+	<script src="js/googleTag.js.js"></script>
+</head>
+
+<body>
+	<!-- Navigation 3 -->
 	<nav class="bg-bg-3 sticky-top py-4 py-lg-7" style="padding-right: 0px; margin-right: 0px;">
 		<div class="d-block d-lg-none">
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-3" data-aos="fade-down" data-aos-delay="0">
-						<a href="#" class="btn btn-width-equal-height d-lg-none rounded-circle custom-mobile-nav-btn" data-bs-toggle="offcanvas" data-bs-target="#custom-id-qerjstil">
-							<svg width="20" height="20" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-light-1">
-								<path d="M2.00016 5.33333H14.0002C14.177 5.33333 14.3465 5.2631 14.4716 5.13807C14.5966 5.01305 14.6668 4.84348 14.6668 4.66667C14.6668 4.48986 14.5966 4.32029 14.4716 4.19526C14.3465 4.07024 14.177 4 14.0002 4H2.00016C1.82335 4 1.65378 4.07024 1.52876 4.19526C1.40373 4.32029 1.3335 4.48986 1.3335 4.66667C1.3335 4.84348 1.40373 5.01305 1.52876 5.13807C1.65378 5.2631 1.82335 5.33333 2.00016 5.33333ZM14.0002 10.6667H2.00016C1.82335 10.6667 1.65378 10.7369 1.52876 10.8619C1.40373 10.987 1.3335 11.1565 1.3335 11.3333C1.3335 11.5101 1.40373 11.6797 1.52876 11.8047C1.65378 11.9298 1.82335 12 2.00016 12H14.0002C14.177 12 14.3465 11.9298 14.4716 11.8047C14.5966 11.6797 14.6668 11.5101 14.6668 11.3333C14.6668 11.1565 14.5966 10.987 14.4716 10.8619C14.3465 10.7369 14.177 10.6667 14.0002 10.6667ZM14.0002 7.33333H2.00016C1.82335 7.33333 1.65378 7.40357 1.52876 7.5286C1.40373 7.65362 1.3335 7.82319 1.3335 8C1.3335 8.17681 1.40373 8.34638 1.52876 8.4714C1.65378 8.59643 1.82335 8.66667 2.00016 8.66667H14.0002C14.177 8.66667 14.3465 8.59643 14.4716 8.4714C14.5966 8.34638 14.6668 8.17681 14.6668 8C14.6668 7.82319 14.5966 7.65362 14.4716 7.5286C14.3465 7.40357 14.177 7.33333 14.0002 7.33333Z">
+						<a href="#" class="btn btn-width-equal-height d-lg-none rounded-circle custom-mobile-nav-btn"
+							data-bs-toggle="offcanvas" data-bs-target="#custom-id-qerjstil">
+							<svg width="20" height="20" viewBox="0 0 16 16" fill="none"
+								xmlns="http://www.w3.org/2000/svg" class="fill-light-1">
+								<path
+									d="M2.00016 5.33333H14.0002C14.177 5.33333 14.3465 5.2631 14.4716 5.13807C14.5966 5.01305 14.6668 4.84348 14.6668 4.66667C14.6668 4.48986 14.5966 4.32029 14.4716 4.19526C14.3465 4.07024 14.177 4 14.0002 4H2.00016C1.82335 4 1.65378 4.07024 1.52876 4.19526C1.40373 4.32029 1.3335 4.48986 1.3335 4.66667C1.3335 4.84348 1.40373 5.01305 1.52876 5.13807C1.65378 5.2631 1.82335 5.33333 2.00016 5.33333ZM14.0002 10.6667H2.00016C1.82335 10.6667 1.65378 10.7369 1.52876 10.8619C1.40373 10.987 1.3335 11.1565 1.3335 11.3333C1.3335 11.5101 1.40373 11.6797 1.52876 11.8047C1.65378 11.9298 1.82335 12 2.00016 12H14.0002C14.177 12 14.3465 11.9298 14.4716 11.8047C14.5966 11.6797 14.6668 11.5101 14.6668 11.3333C14.6668 11.1565 14.5966 10.987 14.4716 10.8619C14.3465 10.7369 14.177 10.6667 14.0002 10.6667ZM14.0002 7.33333H2.00016C1.82335 7.33333 1.65378 7.40357 1.52876 7.5286C1.40373 7.65362 1.3335 7.82319 1.3335 8C1.3335 8.17681 1.40373 8.34638 1.52876 8.4714C1.65378 8.59643 1.82335 8.66667 2.00016 8.66667H14.0002C14.177 8.66667 14.3465 8.59643 14.4716 8.4714C14.5966 8.34638 14.6668 8.17681 14.6668 8C14.6668 7.82319 14.5966 7.65362 14.4716 7.5286C14.3465 7.40357 14.177 7.33333 14.0002 7.33333Z">
 								</path>
 							</svg>
 						</a>
 					</div>
 					<div class="col-6 text-center" data-aos="fade-down" data-aos-delay="300">
 						<a href="#">
-							<img src="i/logo-dark.png" srcset="i/logo-dark@2x.png 2x" alt="" class="img-fluid" data-aos="fade-down" data-aos-delay="0">
+							<img src="i/logo-dark.png" srcset="i/logo-dark@2x.png 2x" alt="" class="img-fluid"
+								data-aos="fade-down" data-aos-delay="0">
 						</a>
 					</div>
 					<div class="col-3" data-aos="fade-down" data-aos-delay="600">
@@ -44,8 +56,11 @@
 					<img src="i/logo-dark.png" srcset="i/logo-dark@2x.png 2x" alt="" class="img-fluid">
 				</a>
 				<a href="#" class="btn btn-sm btn-width-equal-height btn-bg-3 " data-bs-dismiss="offcanvas">
-					<svg width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-dark-2">
-						<path d="M8.9398 8L13.1398 3.80667C13.2653 3.68113 13.3359 3.51087 13.3359 3.33333C13.3359 3.1558 13.2653 2.98554 13.1398 2.86C13.0143 2.73447 12.844 2.66394 12.6665 2.66394C12.4889 2.66394 12.3187 2.73447 12.1931 2.86L7.9998 7.06L3.80646 2.86C3.68093 2.73447 3.51066 2.66394 3.33313 2.66394C3.1556 2.66394 2.98533 2.73447 2.8598 2.86C2.73426 2.98554 2.66374 3.1558 2.66374 3.33333C2.66374 3.51087 2.73426 3.68113 2.8598 3.80667L7.0598 8L2.8598 12.1933C2.79731 12.2553 2.74771 12.329 2.71387 12.4103C2.68002 12.4915 2.6626 12.5787 2.6626 12.6667C2.6626 12.7547 2.68002 12.8418 2.71387 12.9231C2.74771 13.0043 2.79731 13.078 2.8598 13.14C2.92177 13.2025 2.99551 13.2521 3.07675 13.2859C3.15798 13.3198 3.24512 13.3372 3.33313 13.3372C3.42114 13.3372 3.50827 13.3198 3.58951 13.2859C3.67075 13.2521 3.74449 13.2025 3.80646 13.14L7.9998 8.94L12.1931 13.14C12.2551 13.2025 12.3288 13.2521 12.4101 13.2859C12.4913 13.3198 12.5785 13.3372 12.6665 13.3372C12.7545 13.3372 12.8416 13.3198 12.9228 13.2859C13.0041 13.2521 13.0778 13.2025 13.1398 13.14C13.2023 13.078 13.2519 13.0043 13.2857 12.9231C13.3196 12.8418 13.337 12.7547 13.337 12.6667C13.337 12.5787 13.3196 12.4915 13.2857 12.4103C13.2519 12.329 13.2023 12.2553 13.1398 12.1933L8.9398 8Z" fill="#0C111E">
+					<svg width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+						class="fill-dark-2">
+						<path
+							d="M8.9398 8L13.1398 3.80667C13.2653 3.68113 13.3359 3.51087 13.3359 3.33333C13.3359 3.1558 13.2653 2.98554 13.1398 2.86C13.0143 2.73447 12.844 2.66394 12.6665 2.66394C12.4889 2.66394 12.3187 2.73447 12.1931 2.86L7.9998 7.06L3.80646 2.86C3.68093 2.73447 3.51066 2.66394 3.33313 2.66394C3.1556 2.66394 2.98533 2.73447 2.8598 2.86C2.73426 2.98554 2.66374 3.1558 2.66374 3.33333C2.66374 3.51087 2.73426 3.68113 2.8598 3.80667L7.0598 8L2.8598 12.1933C2.79731 12.2553 2.74771 12.329 2.71387 12.4103C2.68002 12.4915 2.6626 12.5787 2.6626 12.6667C2.6626 12.7547 2.68002 12.8418 2.71387 12.9231C2.74771 13.0043 2.79731 13.078 2.8598 13.14C2.92177 13.2025 2.99551 13.2521 3.07675 13.2859C3.15798 13.3198 3.24512 13.3372 3.33313 13.3372C3.42114 13.3372 3.50827 13.3198 3.58951 13.2859C3.67075 13.2521 3.74449 13.2025 3.80646 13.14L7.9998 8.94L12.1931 13.14C12.2551 13.2025 12.3288 13.2521 12.4101 13.2859C12.4913 13.3198 12.5785 13.3372 12.6665 13.3372C12.7545 13.3372 12.8416 13.3198 12.9228 13.2859C13.0041 13.2521 13.0778 13.2025 13.1398 13.14C13.2023 13.078 13.2519 13.0043 13.2857 12.9231C13.3196 12.8418 13.337 12.7547 13.337 12.6667C13.337 12.5787 13.3196 12.4915 13.2857 12.4103C13.2519 12.329 13.2023 12.2553 13.1398 12.1933L8.9398 8Z"
+							fill="#0C111E">
 						</path>
 					</svg>
 				</a>
@@ -53,26 +68,26 @@
 			<div class="offcanvas-body">
 				<div>
 					<a href="#" class="fw-bold text-dark-1 py-2 d-inline-block">
-Home
+						Home
 					</a>
 				</div>
 				<div>
 					<a href="#" class="fw-bold text-dark-1 py-2 d-inline-block">
-Features
+						Features
 					</a>
 				</div>
 				<div>
 					<a href="#" class="fw-bold text-dark-1 py-2 d-inline-block">
-Blog
+						Blog
 					</a>
 				</div>
 				<div>
 					<a href="#" class="fw-bold text-dark-1 py-2 d-inline-block">
-Prices
+						Prices
 					</a>
 				</div>
 				<a href="#" class="btn btn-action-1 btn-sm rounded-2 mt-4">
-Get Started
+					Get Started
 				</a>
 			</div>
 		</div>
@@ -81,24 +96,26 @@ Get Started
 				<div class="row justify-content-between align-items-center">
 					<div class="col-8 d-flex align-items-center">
 						<a href="#top">
-							<img src="i/logo.png" alt="" class="img-fluid me-4 mh-100" data-aos="fade-down" data-aos-delay="0" srcset="i/logo@2.png 2x">
+							<img src="i/logo.png" alt="" class="img-fluid me-4 mh-100" data-aos="fade-down"
+								data-aos-delay="0" srcset="i/logo@2.png 2x">
 						</a>
 						<a href="#info" class="fw-bold mx-4 text-dark-1" data-aos="fade-down" data-aos-delay="150">
-									Info
+							Info
 						</a>
 						<a href="#galery" class="fw-bold mx-4 text-dark-1" data-aos="fade-down" data-aos-delay="300">
-									Galery
+							Galery
 						</a>
 						<a href="#download" class="fw-bold mx-4 text-dark-1" data-aos="fade-down" data-aos-delay="450">
-									Download
+							Download
 						</a>
 						<a href="#contact" class="fw-bold mx-4 text-dark-1" data-aos="fade-down" data-aos-delay="600">
-									Contact
+							Contact
 						</a>
 					</div>
 					<div class="col-2 text-end">
-						<a href="#contact" class="btn btn-action-1 btn-sm rounded-2" data-aos="fade-down" data-aos-delay="750">
-									Help us
+						<a href="#contact" class="btn btn-action-1 btn-sm rounded-2" data-aos="fade-down"
+							data-aos-delay="750">
+							Help us
 						</a>
 					</div>
 				</div>
@@ -106,389 +123,425 @@ Get Started
 		</div>
 	</nav>
 	<!-- Header 8 -->
-		<header class="py-20 bg-bg-3">
-			<div class="container">
-				<div class="row justify-content-center align-items-center">
-					<div class="mb-6 mb-md-0 col-md-8 col-lg-9 col-xl-8" data-aos="fade-down" data-aos-delay="0">
-						<h2 class="display-4 pb-xl-3">
-									Open Bike
+	<header class="py-20 bg-bg-3">
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+				<div class="mb-6 mb-md-0 col-md-8 col-lg-9 col-xl-8" data-aos="fade-down" data-aos-delay="0">
+					<h2 class="display-4 pb-xl-3">
+						Open Bike
+					</h2>
+					<p class="fs-1">
+						DIY foldable electric micro scooter.
+					</p>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 d-md-flex justify-content-end">
+				</div>
+				<div class="col-xl-10">
+					<div class="mt-8 mt-lg-12 position-relative d-flex justify-content-center" data-aos="fade-down"
+						data-aos-delay="900">
+						<img src="i/header.jpg" srcset="i/header@2.jpg 2x" alt="" class="w-100 rounded-1">
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Call to action 4 -->
+	<section class="py-10 py-lg-20 bg-bg-3">
+		<div class="container">
+			<div class="p-6 p-sm-12 bg-bg-2 rounded-2 text-center text-lg-start">
+				<div
+					class="row flex-column-reverse flex-lg-row align-items-center justify-content-center justify-content-lg-between">
+					<div class="col-md-8 col-lg-6 col-xxl-5">
+						<h2 class="display-7" data-aos="fade-down" data-aos-delay="0">
+							Experience the freedom of mobility with a scooter built by you and customizied to your
+							needs.
 						</h2>
-						<p class="fs-1">
-									DIY foldable electric micro scooter.
+						<a href="#download" class="mt-8 mb-6 btn btn-action-1" data-aos="fade-down"
+							data-aos-delay="300">
+							Plans to download
+						</a>
+						<p class="mb-0" data-aos="fade-down" data-aos-delay="600">
+							No welding required<br>
+							You can build it with basics tools<br>
+							Get interesting experience during assembly
 						</p>
 					</div>
-					<div class="col-xl-2 col-lg-3 col-md-4 d-md-flex justify-content-end">
+					<div class="col-md-8 col-lg-6 text-lg-end">
+						<img src="i/freedom.jpg" srcset="i/freedom@2.jpg 2x" alt=""
+							class="img-fluid mb-8 mb-md-0 rounded-1" data-aos="fade-down" data-aos-delay="0">
 					</div>
-					<div class="col-xl-10">
-						<div class="mt-8 mt-lg-12 position-relative d-flex justify-content-center" data-aos="fade-down" data-aos-delay="900">
-							<img src="i/header.jpg" srcset="i/header@2.jpg 2x" alt="" class="w-100 rounded-1">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Feature 19 -->
+	<section class="py-10 py-lg-20 bg-bg-3 text-center text-md-start">
+		<div class="container">
+			<div class="mb-md-20 mb-15 row flex-column">
+				<div class="mb-6 col-lg-8 col-xl-6">
+					<h2 class="display-5" data-aos="fade-down" data-aos-delay="0">
+						Current specification
+					</h2>
+				</div>
+			</div>
+			<div class="row justify-content-center justify-content-sm-start">
+				<div class="mb-15 col-10 col-sm-6 col-md-5 col-lg-4" data-aos="fade-down" data-aos-delay="300">
+					<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"
+						class="fill-action-1 mb-6 svg-inline--fa fa-weight-hanging fa-w-16 fa-5x">
+						<path
+							d="M39.8656 34.832L34.1601 12.0094C33.8632 10.8227 32.8757 10 31.7484 10H27.0413C27.3202 9.21484 27.5007 8.38125 27.5007 7.5C27.5007 3.35781 24.1429 0 20.0007 0C15.8585 0 12.5007 3.35781 12.5007 7.5C12.5007 8.38125 12.6804 9.21484 12.9601 10H8.25306C7.12572 10 6.13743 10.8234 5.84134 12.0094L0.13431 34.832C-0.516472 37.4344 1.27962 39.9992 3.75228 39.9992H36.2484C38.7202 39.9992 40.5163 37.4344 39.8656 34.832V34.832ZM19.9999 9.99922C18.6218 9.99922 17.4999 8.87734 17.4999 7.49922C17.4999 6.12109 18.6218 4.99922 19.9999 4.99922C21.3781 4.99922 22.4999 6.12109 22.4999 7.49922C22.4999 8.87734 21.3781 9.99922 19.9999 9.99922Z">
+						</path>
+					</svg>
+					<h5 class="mb-4">
+						Weight
+					</h5>
+					<p class="mb-0">
+						11,4 kg
+					</p>
+				</div>
+				<div class="mb-15 col-10 col-sm-6 col-md-5 col-lg-4" data-aos="fade-down" data-aos-delay="450">
+					<svg width="45" height="40" viewBox="0 0 45 40" fill="none" xmlns="http://www.w3.org/2000/svg"
+						class="fill-action-1 mb-6">
+						<path
+							d="M20 2.5C8.95417 2.5 0 11.4542 0 22.5C0 26.1667 0.989584 29.6014 2.7125 32.5556C3.10208 33.2236 3.84444 33.6111 4.61806 33.6111H35.3819C36.1556 33.6111 36.8979 33.2236 37.2875 32.5556C39.0104 29.6014 40 26.1667 40 22.5C40 11.4542 31.0458 2.5 20 2.5ZM20 6.94444C21.0215 6.94444 21.8458 7.64792 22.1056 8.58681C22.0285 8.74375 21.9222 8.88056 21.866 9.05L21.2257 10.9715C20.8694 11.2139 20.4639 11.3889 20.0007 11.3889C18.7736 11.3889 17.7785 10.3937 17.7785 9.16667C17.7785 7.93958 18.7729 6.94444 20 6.94444ZM6.66667 26.9444C5.43958 26.9444 4.44444 25.9493 4.44444 24.7222C4.44444 23.4951 5.43958 22.5 6.66667 22.5C7.89375 22.5 8.88889 23.4951 8.88889 24.7222C8.88889 25.9493 7.89375 26.9444 6.66667 26.9444ZM10 15.8333C8.77292 15.8333 7.77778 14.8382 7.77778 13.6111C7.77778 12.384 8.77292 11.3889 10 11.3889C11.2271 11.3889 12.2222 12.384 12.2222 13.6111C12.2222 14.8382 11.2271 15.8333 10 15.8333ZM27.1368 10.8049L22.8778 23.5826C23.8285 24.3979 24.4444 25.5931 24.4444 26.9444C24.4444 27.7583 24.2097 28.5104 23.8278 29.1667H16.1722C15.7903 28.5104 15.5556 27.7583 15.5556 26.9444C15.5556 24.5875 17.3958 22.6785 19.7153 22.5285L23.975 9.75C24.2646 8.87778 25.2063 8.39931 26.0833 8.69653C26.9563 8.9875 27.4271 9.93194 27.1368 10.8049V10.8049ZM28.1549 14.7771L29.2326 11.5444C29.4736 11.4549 29.7278 11.3896 30 11.3896C31.2271 11.3896 32.2222 12.3847 32.2222 13.6118C32.2222 14.8389 31.2271 15.834 30 15.834C29.2097 15.8333 28.5493 15.3979 28.1549 14.7771ZM33.3333 26.9444C32.1063 26.9444 31.1111 25.9493 31.1111 24.7222C31.1111 23.4951 32.1063 22.5 33.3333 22.5C34.5604 22.5 35.5556 23.4951 35.5556 24.7222C35.5556 25.9493 34.5604 26.9444 33.3333 26.9444Z">
+						</path>
+					</svg>
+					<h5 class="mb-4">
+						Top speed
+					</h5>
+					<p class="mb-0">
+						30km/h
+					</p>
+				</div>
+				<div class="mb-15 col-10 col-sm-6 col-md-5 col-lg-4" data-aos="fade-down" data-aos-delay="600">
+					<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"
+						class="fill-action-1 mb-6">
+						<path
+							d="M32.0068 15.9305L31.4943 16.8242C31.3068 17.1555 30.9068 17.293 30.5506 17.1617C29.8131 16.8867 29.1381 16.493 28.5443 15.9992C28.2568 15.7617 28.1818 15.343 28.3693 15.018L28.8818 14.1242C28.4506 13.6242 28.1131 13.043 27.8881 12.4117H26.8568C26.4818 12.4117 26.1568 12.143 26.0943 11.768C25.9693 11.018 25.9631 10.2305 26.0943 9.44923C26.1568 9.07423 26.4818 8.79923 26.8568 8.79923H27.8881C28.1131 8.16798 28.4506 7.58673 28.8818 7.08673L28.3693 6.19298C28.1818 5.86798 28.2506 5.44923 28.5443 5.21173C29.1381 4.71798 29.8193 4.32423 30.5506 4.04923C30.9068 3.91798 31.3068 4.05548 31.4943 4.38673L32.0068 5.28048C32.6631 5.16173 33.3318 5.16173 33.9881 5.28048L34.5006 4.38673C34.6881 4.05548 35.0881 3.91798 35.4443 4.04923C36.1818 4.32423 36.8568 4.71798 37.4506 5.21173C37.7381 5.44923 37.8131 5.86798 37.6256 6.19298L37.1131 7.08673C37.5443 7.58673 37.8818 8.16798 38.1068 8.79923H39.1381C39.5131 8.79923 39.8381 9.06798 39.9006 9.44298C40.0256 10.193 40.0318 10.9805 39.9006 11.7617C39.8381 12.1367 39.5131 12.4117 39.1381 12.4117H38.1068C37.8818 13.043 37.5443 13.6242 37.1131 14.1242L37.6256 15.018C37.8131 15.343 37.7443 15.7617 37.4506 15.9992C36.8568 16.493 36.1756 16.8867 35.4443 17.1617C35.0881 17.293 34.6881 17.1555 34.5006 16.8242L33.9881 15.9305C33.3381 16.0492 32.6631 16.0492 32.0068 15.9305V15.9305ZM31.3506 12.2555C33.7568 14.1055 36.5006 11.3617 34.6506 8.95548C32.2443 7.09923 29.5006 9.84923 31.3506 12.2555V12.2555ZM24.1443 21.8742L26.2506 22.9242C26.8818 23.2867 27.1568 24.0555 26.9068 24.743C26.3506 26.2555 25.2568 27.643 24.2443 28.8555C23.7818 29.4117 22.9818 29.5492 22.3506 29.1867L20.5318 28.1367C19.5318 28.993 18.3693 29.6742 17.1006 30.118V32.218C17.1006 32.943 16.5818 33.568 15.8693 33.693C14.3318 33.9555 12.7193 33.968 11.1256 33.693C10.4068 33.568 9.87559 32.9492 9.87559 32.218V30.118C8.60684 29.668 7.44434 28.993 6.44434 28.1367L4.62559 29.1805C4.00059 29.543 3.19434 29.4055 2.73184 28.8492C1.71934 27.6367 0.650587 26.2492 0.0943369 24.743C-0.155663 24.0617 0.119337 23.293 0.750587 22.9242L2.83184 21.8742C2.58809 20.568 2.58809 19.2242 2.83184 17.9117L0.750587 16.8555C0.119337 16.493 -0.161913 15.7242 0.0943369 15.043C0.650587 13.5305 1.71934 12.143 2.73184 10.9305C3.19434 10.3742 3.99434 10.2367 4.62559 10.5992L6.44434 11.6492C7.44434 10.793 8.60684 10.1117 9.87559 9.66798V7.56173C9.87559 6.84298 10.3881 6.21798 11.1006 6.09298C12.6381 5.83048 14.2568 5.81798 15.8506 6.08673C16.5693 6.21173 17.1006 6.83048 17.1006 7.56173V9.66173C18.3693 10.1117 19.5318 10.7867 20.5318 11.643L22.3506 10.593C22.9756 10.2305 23.7818 10.368 24.2443 10.9242C25.2568 12.1367 26.3193 13.5242 26.8756 15.0367C27.1256 15.718 26.8818 16.4867 26.2506 16.8555L24.1443 17.9055C24.3881 19.218 24.3881 20.5617 24.1443 21.8742V21.8742ZM16.7943 23.193C20.4943 18.3805 15.0006 12.8867 10.1881 16.5867C6.48809 21.3992 11.9818 26.893 16.7943 23.193ZM32.0068 34.6117L31.4943 35.5055C31.3068 35.8367 30.9068 35.9742 30.5506 35.843C29.8131 35.568 29.1381 35.1742 28.5443 34.6805C28.2568 34.443 28.1818 34.0242 28.3693 33.6992L28.8818 32.8055C28.4506 32.3055 28.1131 31.7242 27.8881 31.093H26.8568C26.4818 31.093 26.1568 30.8242 26.0943 30.4492C25.9693 29.6992 25.9631 28.9117 26.0943 28.1305C26.1568 27.7555 26.4818 27.4805 26.8568 27.4805H27.8881C28.1131 26.8492 28.4506 26.268 28.8818 25.768L28.3693 24.8742C28.1818 24.5492 28.2506 24.1305 28.5443 23.893C29.1381 23.3992 29.8193 23.0055 30.5506 22.7305C30.9068 22.5992 31.3068 22.7367 31.4943 23.068L32.0068 23.9617C32.6631 23.843 33.3318 23.843 33.9881 23.9617L34.5006 23.068C34.6881 22.7367 35.0881 22.5992 35.4443 22.7305C36.1818 23.0055 36.8568 23.3992 37.4506 23.893C37.7381 24.1305 37.8131 24.5492 37.6256 24.8742L37.1131 25.768C37.5443 26.268 37.8818 26.8492 38.1068 27.4805H39.1381C39.5131 27.4805 39.8381 27.7492 39.9006 28.1242C40.0256 28.8742 40.0318 29.6617 39.9006 30.443C39.8381 30.818 39.5131 31.093 39.1381 31.093H38.1068C37.8818 31.7242 37.5443 32.3055 37.1131 32.8055L37.6256 33.6992C37.8131 34.0242 37.7443 34.443 37.4506 34.6805C36.8568 35.1742 36.1756 35.568 35.4443 35.843C35.0881 35.9742 34.6881 35.8367 34.5006 35.5055L33.9881 34.6117C33.3381 34.7305 32.6631 34.7305 32.0068 34.6117ZM31.3506 30.9305C33.7568 32.7805 36.5006 30.0367 34.6506 27.6305C32.2443 25.7805 29.5006 28.5242 31.3506 30.9305V30.9305Z">
+						</path>
+					</svg>
+					<h5 class="mb-4">
+						Electric motor
+					</h5>
+					<p class="mb-0">
+						BLDC 250W
+					</p>
+				</div>
+				<div class="mb-15 col-10 col-sm-6 col-md-5 col-lg-4 mb-lg-0" data-aos="fade-down" data-aos-delay="600">
+					<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"
+						class="fill-action-1 mb-6">
+						<path
+							d="M20 0.625C9.29688 0.625 0.625 9.29688 0.625 20C0.625 30.7031 9.29688 39.375 20 39.375C30.7031 39.375 39.375 30.7031 39.375 20C39.375 9.29688 30.7031 0.625 20 0.625ZM20 35.625C11.3672 35.625 4.375 28.6328 4.375 20C4.375 11.3672 11.3672 4.375 20 4.375C28.6328 4.375 35.625 11.3672 35.625 20C35.625 28.6328 28.6328 35.625 20 35.625Z">
+						</path>
+					</svg>
+					<h5 class="mb-4">
+						Front wheel
+					</h5>
+					<p class="mb-0">
+						12 inch
+					</p>
+				</div>
+				<div class="mb-15 mb-md-0 col-10 col-sm-6 col-md-5 col-lg-4" data-aos="fade-down" data-aos-delay="750">
+					<svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg"
+						class="fill-action-1 mb-6">
+						<path
+							d="M19.5 2C9.83266 2 2 9.83266 2 19.5C2 29.1673 9.83266 37 19.5 37C29.1673 37 37 29.1673 37 19.5C37 9.83266 29.1673 2 19.5 2ZM19.5 33.6129C11.7026 33.6129 5.3871 27.2974 5.3871 19.5C5.3871 11.7026 11.7026 5.3871 19.5 5.3871C27.2974 5.3871 33.6129 11.7026 33.6129 19.5C33.6129 27.2974 27.2974 33.6129 19.5 33.6129Z">
+						</path>
+						<path
+							d="M29.7318 22.0234L27.8477 20.9818C28.0379 19.9996 28.0379 18.9919 27.8477 18.0097L29.7318 16.9682C29.9485 16.8496 30.0458 16.604 29.975 16.3754C29.4841 14.8682 28.6482 13.5049 27.5558 12.3702C27.3877 12.1966 27.1135 12.1543 26.9012 12.2728L25.0172 13.3143C24.2255 12.6623 23.3144 12.1585 22.3281 11.8283V9.74943C22.3281 9.51234 22.1557 9.30488 21.9124 9.25407C20.2893 8.90689 18.6263 8.92383 17.0828 9.25407C16.8395 9.30488 16.6671 9.51234 16.6671 9.74943V11.8325C15.6852 12.167 14.7741 12.6708 13.978 13.3186L12.0984 12.277C11.8817 12.1585 11.6119 12.1966 11.4438 12.3744C10.3514 13.5049 9.51552 14.8682 9.0246 16.3796C8.94941 16.6083 9.05113 16.8538 9.26785 16.9724L11.1519 18.0139C10.9617 18.9962 10.9617 20.0038 11.1519 20.9861L9.26785 22.0276C9.05113 22.1462 8.95383 22.3917 9.0246 22.6203C9.51552 24.1276 10.3514 25.4909 11.4438 26.6256C11.6119 26.7992 11.8861 26.8415 12.0984 26.723L13.9825 25.6814C14.7741 26.3334 15.6852 26.8373 16.6715 27.1675V29.2506C16.6715 29.4877 16.844 29.6951 17.0872 29.7459C18.7104 30.0931 20.3733 30.0762 21.9168 29.7459C22.1601 29.6951 22.3326 29.4877 22.3326 29.2506V27.1675C23.3144 26.833 24.2255 26.3292 25.0216 25.6814L26.9057 26.723C27.1224 26.8415 27.3922 26.8034 27.5602 26.6256C28.6526 25.4951 29.4885 24.1318 29.9794 22.6203C30.0458 22.3875 29.9485 22.1419 29.7318 22.0234ZM19.4976 22.8828C17.5472 22.8828 15.9594 21.3629 15.9594 19.4958C15.9594 17.6286 17.5472 16.1087 19.4976 16.1087C21.448 16.1087 23.0358 17.6286 23.0358 19.4958C23.0358 21.3629 21.448 22.8828 19.4976 22.8828Z">
+						</path>
+					</svg>
+					<h5 class="mb-4">
+						Rear wheel
+					</h5>
+					<p class="mb-0">
+						8 inch with hub motor
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Header 3 -->
+	<header class="py-20 bg-bg-3 text-center">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-xl-10">
+					<h1 class="display-4" data-aos="fade-down" data-aos-delay="0">
+						Find out more on our YouTube channel: Open Bike
+					</h1>
+					<div class="mt-8 mt-lg-12 position-relative" data-aos="fade-down" data-aos-delay="300">
+						<a href="https://www.youtube.com/channel/UCICYZ96I6nIfXqI8s1W-vcw/videos">
+							<img src="i/yt.jpg" srcset="i/yt@2.jpg 2x" alt="" class="img-fluid">
+						</a>
+					</div>
+					<a href="https://www.youtube.com/channel/UCICYZ96I6nIfXqI8s1W-vcw/videos"
+						class="btn btn-action-1 m-xl-5">
+						Go to chanel
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Feature 2 -->
+	<section class="py-10 py-lg-20 text-center bg-bg-3">
+		<div class="container">
+			<div class="row justify-content-center" id="info">
+				<div class="col-md-9 col-lg-7 col-xl-6 col-xxl-5">
+					<h2 class="display-5 mb-6" data-aos="fade-down" data-aos-delay="0">
+						Features
+					</h2>
+					<p class="fs-2 mb-15" data-aos="fade-down" data-aos-delay="300">
+						Thanks to Open Architecture, you can modify any parts to make it perfectly suited to your needs.
+					</p>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="mb-8 mb-lg-0 col-sm-8 col-md-7 col-lg-4 d-flex" data-aos="fade-down" data-aos-delay="0">
+					<div class="w-100 p-8 p-md-16 p-lg-8 p-xl-12 p-xxl-20 bg-bg-2">
+						<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"
+							class="fill-action-5 mb-6">
+							<path
+								d="M58.902 25.152L53.5992 19.8492C52.8961 19.1461 51.9422 18.7512 50.9473 18.7512H45V9.375C45 6.26836 42.4816 3.75 39.375 3.75H20.625C17.5184 3.75 15 6.26836 15 9.375V18.75H9.05273C8.05781 18.75 7.10508 19.1449 6.40078 19.848L1.09805 25.152C0.394922 25.8551 0 26.809 0 27.8039V37.5H15V35.625C15 34.5891 15.8391 33.75 16.875 33.75H20.625C21.6609 33.75 22.5 34.5891 22.5 35.625V37.5H37.5V35.625C37.5 34.5891 38.3391 33.75 39.375 33.75H43.125C44.1609 33.75 45 34.5891 45 35.625V37.5H60V27.8027C60 26.809 59.6051 25.8551 58.902 25.152ZM37.5 18.75H22.5V11.25H37.5V18.75ZM45 43.125C45 44.1609 44.1609 45 43.125 45H39.375C38.3391 45 37.5 44.1609 37.5 43.125V41.25H22.5V43.125C22.5 44.1609 21.6609 45 20.625 45H16.875C15.8391 45 15 44.1609 15 43.125V41.25H0V52.5C0 54.5707 1.6793 56.25 3.75 56.25H56.25C58.3207 56.25 60 54.5707 60 52.5V41.25H45V43.125Z">
+							</path>
+						</svg>
+						<h5>
+							No welding required<br>
+
+						</h5>
+						<p class="my-4">
+							Only bolted connections were used in this construction<br>
+							It does not even require welding to the battery
+						</p>
+						<a href="#" class="fw-bold">
+						</a>
+					</div>
+				</div>
+				<div class="mb-8 mb-lg-0 col-sm-8 col-md-7 col-lg-4 d-flex" data-aos="fade-down" data-aos-delay="300">
+					<div class="w-100 p-8 p-md-16 p-lg-8 p-xl-12 p-xxl-20 bg-bg-2">
+						<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"
+							class="fill-action-6 mb-6">
+							<g clip-path="url(#clip0_3:97)">
+								<path
+									d="M58.7227 46.3711L45 32.6484C42.293 29.9414 38.25 29.4141 34.9922 31.0195L22.5 18.5273V11.25L7.5 0L-8.9407e-08 7.5L11.25 22.5H18.5273L31.0195 34.9922C29.4258 38.25 29.9414 42.293 32.6484 45L46.3711 58.7227C48.082 60.4336 50.8477 60.4336 52.5469 58.7227L58.7227 52.5469C60.4219 50.8359 60.4219 48.0703 58.7227 46.3711V46.3711ZM38.8711 26.3672C42.1875 26.3672 45.3047 27.6562 47.6484 30L49.9219 32.2734C51.7734 31.4648 53.5312 30.3398 55.0547 28.8164C59.4023 24.4687 60.8789 18.3516 59.4961 12.7969C59.2383 11.7422 57.9141 11.3789 57.1406 12.1523L48.4219 20.8711L40.4648 19.5469L39.1406 11.5898L47.8594 2.87109C48.6328 2.09766 48.2578 0.773438 47.1914 0.503906C41.6367 -0.867187 35.5195 0.609375 31.1836 4.94531C27.8437 8.28516 26.2734 12.6914 26.3555 17.0859L35.9766 26.707C36.9258 26.4844 37.9102 26.3672 38.8711 26.3672ZM26.6953 35.9766L20.0508 29.332L2.19141 47.2031C-0.738281 50.1328 -0.738281 54.8789 2.19141 57.8086C5.12109 60.7383 9.86719 60.7383 12.7969 57.8086L27.2813 43.3242C26.3906 40.9922 26.1211 38.4492 26.6953 35.9766V35.9766ZM7.5 55.3125C5.95313 55.3125 4.6875 54.0469 4.6875 52.5C4.6875 50.9414 5.94141 49.6875 7.5 49.6875C9.05859 49.6875 10.3125 50.9414 10.3125 52.5C10.3125 54.0469 9.05859 55.3125 7.5 55.3125Z">
+								</path>
+							</g>
+							<defs>
+								<clipPath id="clip0_3:97">
+									<rect width="60" height="60" fill="white">
+									</rect>
+								</clipPath>
+							</defs>
+						</svg>
+						<h5>
+							Build it with basics tools
+						</h5>
+						<p class="my-4">
+							Simple wrench and a screwdriver will be enough<br>
+
+						</p>
+						<a href="#" class="fw-bold">
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-8 col-md-7 col-lg-4 d-flex" data-aos="fade-down" data-aos-delay="600">
+					<div class="w-100 p-8 p-md-16 p-lg-8 p-xl-12 p-xxl-20 bg-bg-2">
+						<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"
+							class="fill-action-8 mb-6">
+							<path
+								d="M21.0008 30.0009C27.6292 30.0009 33.0013 24.6289 33.0013 18.0005C33.0013 11.3721 27.6292 6 21.0008 6C14.3724 6 9.00035 11.3721 9.00035 18.0005C9.00035 24.6289 14.3724 30.0009 21.0008 30.0009ZM29.4012 33.0011H27.8355C25.7541 33.9573 23.4384 34.5011 21.0008 34.5011C18.5632 34.5011 16.2569 33.9573 14.1662 33.0011H12.6005C5.64397 33.0011 0 38.645 0 45.6015V49.5017C0 51.9862 2.0157 54.0019 4.50018 54.0019H30.2731C30.048 53.3643 29.9543 52.6893 30.0293 52.0049L30.6668 46.2953L30.7793 45.2547L31.52 44.514L38.7671 37.2668C36.4702 34.6699 33.1419 33.0011 29.4012 33.0011V33.0011ZM33.6482 46.6235L33.0107 52.3424C32.9075 53.2987 33.7138 54.105 34.6607 53.9925L40.3703 53.355L53.299 40.4263L46.5768 33.7042L33.6482 46.6235V46.6235ZM59.3461 31.2104L55.7928 27.6571C54.9209 26.7852 53.4958 26.7852 52.6239 27.6571L49.08 31.201L48.6957 31.5854L55.4272 38.3075L59.3461 34.3886C60.218 33.5073 60.218 32.0916 59.3461 31.2104V31.2104Z">
+							</path>
+						</svg>
+						<h5>
+							Customizied to your needs
+						</h5>
+						<p class="my-4">
+							You can use different wheels sizes, different battery capacity, different motor type or even
+							change frame shape
+						</p>
+						<a href="#" class="fw-bold">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Galery -->
+	<!-- <section class="py-10 py-lg-20 bg-bg-3 text-center" id="galery">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-9 col-lg-7 col-xl-6 col-xxl-5">
+					<h2 class="display-5 mb-6" data-aos="fade-down" data-aos-delay="0">
+						Galery
+					</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 mb-6 mb-md-0">
+					<a href="#" class="d-block h-100">
+						<img src="i/showcase-2-1.jpg" srcset="i/showcase-2-1@2x.jpg 2x" alt=""
+							class="d-block w-100 h-100">
+					</a>
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-6">
+							<a href="#" class="d-block">
+								<img src="i/showcase-2-2.jpg" srcset="i/showcase-2-2@2x.jpg 2x" alt=""
+									class="d-block w-100">
+							</a>
+						</div>
+						<div class="col-6">
+							<a href="#" class="d-block">
+								<img src="i/showcase-2-3.jpg" srcset="i/showcase-2-3@2x.jpg 2x" alt=""
+									class="d-block w-100">
+							</a>
+						</div>
+						<div class="mt-6 col-12">
+							<a href="#" class="d-block">
+								<img src="i/showcase-2-4.jpg" srcset="i/showcase-2-4@2x.jpg 2x" alt=""
+									class="d-block w-100">
+							</a>
 						</div>
 					</div>
 				</div>
 			</div>
-		</header>
-		<!-- Call to action 4 -->
-			<section class="py-10 py-lg-20 bg-bg-3">
-				<div class="container">
-					<div class="p-6 p-sm-12 bg-bg-2 rounded-2 text-center text-lg-start">
-						<div class="row flex-column-reverse flex-lg-row align-items-center justify-content-center justify-content-lg-between">
-							<div class="col-md-8 col-lg-6 col-xxl-5">
-								<h2 class="display-7" data-aos="fade-down" data-aos-delay="0">
-											Experience the freedom of mobility with a scooter built by you and customizied to your needs.
-								</h2>
-								<a href="#download" class="mt-8 mb-6 btn btn-action-1" data-aos="fade-down" data-aos-delay="300">
-											Plans to download
-								</a>
-								<p class="mb-0" data-aos="fade-down" data-aos-delay="600">
-											No welding required<br>
-											You can build it with basics tools<br>
-											Get interesting experience during assembly
-								</p>
-							</div>
-							<div class="col-md-8 col-lg-6 text-lg-end">
-								<img src="i/freedom.jpg" srcset="i/freedom@2.jpg 2x" alt="" class="img-fluid mb-8 mb-md-0 rounded-1" data-aos="fade-down" data-aos-delay="0">
-							</div>
-						</div>
+		</div>
+	</section> -->
+	<!-- Feature 20 -->
+	<section class="py-10 py-lg-20 text-center text-md-start bg-bg-3" id="download">
+		<div class="container">
+			<div class="row justify-content-between mb-lg-20 mb-15">
+				<div class="mb-lg-0 mb-6 col-md-8 col-lg-7 col-xl-6 col-xxl-5">
+					<h2 class="display-5" data-aos="fade-down" data-aos-delay="0">
+						Download
+					</h2>
+				</div>
+				<div class="col-md-8 col-lg-5">
+					<p class="fs-2 mb-0" data-aos="fade-down" data-aos-delay="150">
+						Download all files for 3D printing and laser cut
+					</p>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-sm-8 col-md-4 mb-15 mb-md-0" data-aos="fade-down" data-aos-delay="450">
+					<img src="i/3d.png" srcset="i/3d@2.png 2x" alt="" class="img-fluid w-100 mb-6">
+					<h4 class="mb-4">
+						Parts for 3D printing
+					</h4>
+					<p class="fs-4 mb-0">
+						Use these files for 3D printing<br>
+						Adjust them if needed
+					</p>
+				</div>
+				<div class="col-sm-8 col-md-4 mb-15 mb-md-0" data-aos="fade-down" data-aos-delay="600">
+					<img src="i/metal.png" srcset="i/metal@2.png 2x" alt="" class="img-fluid w-100 mb-6">
+					<h4 class="mb-4">
+						Metal sheets parts
+					</h4>
+					<p class="fs-4 mb-0">
+						Use these files for laser cut<br>
+						You can also cut manually if you prefer
+					</p>
+				</div>
+				<div class="col-sm-8 col-md-4" data-aos="fade-down" data-aos-delay="750">
+					<img src="i/documents.png" srcset="i/documents@2.png 2x" alt="" class="img-fluid w-100 mb-6">
+					<h4 class="mb-4">
+						Manual
+					</h4>
+					<p class="fs-4 mb-0">
+						Use these files to learn how to buit
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Call to action 5 -->
+	<section class="py-10 py-lg-20 bg-bg-3 text-center">
+		<div class="container">
+			<div class="bg-bg-2 rounded-2 p-8 p-md-12">
+				<div class="row justify-content-center" id="contact">
+					<div class="col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+						<h2 class="display-5" data-aos="fade-down" data-aos-delay="0">
+							Feel free to contact us
+						</h2>
+						<p class="mt-6 mb-8" data-aos="fade-down" data-aos-delay="300">
+							info@open-bike.pl
+						</p>
 					</div>
 				</div>
-			</section>
-			<!-- Feature 19 -->
-				<section class="py-10 py-lg-20 bg-bg-3 text-center text-md-start">
-					<div class="container">
-						<div class="mb-md-20 mb-15 row flex-column">
-							<div class="mb-6 col-lg-8 col-xl-6">
-								<h2 class="display-5" data-aos="fade-down" data-aos-delay="0">
-											Current specification
-								</h2>
-							</div>
-						</div>
-						<div class="row justify-content-center justify-content-sm-start">
-							<div class="mb-15 col-10 col-sm-6 col-md-5 col-lg-4" data-aos="fade-down" data-aos-delay="300">
-								<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-action-1 mb-6 svg-inline--fa fa-weight-hanging fa-w-16 fa-5x">
-									<path d="M39.8656 34.832L34.1601 12.0094C33.8632 10.8227 32.8757 10 31.7484 10H27.0413C27.3202 9.21484 27.5007 8.38125 27.5007 7.5C27.5007 3.35781 24.1429 0 20.0007 0C15.8585 0 12.5007 3.35781 12.5007 7.5C12.5007 8.38125 12.6804 9.21484 12.9601 10H8.25306C7.12572 10 6.13743 10.8234 5.84134 12.0094L0.13431 34.832C-0.516472 37.4344 1.27962 39.9992 3.75228 39.9992H36.2484C38.7202 39.9992 40.5163 37.4344 39.8656 34.832V34.832ZM19.9999 9.99922C18.6218 9.99922 17.4999 8.87734 17.4999 7.49922C17.4999 6.12109 18.6218 4.99922 19.9999 4.99922C21.3781 4.99922 22.4999 6.12109 22.4999 7.49922C22.4999 8.87734 21.3781 9.99922 19.9999 9.99922Z">
-									</path>
-								</svg>
-								<h5 class="mb-4">
-											Weight
-								</h5>
-								<p class="mb-0">
-											11,4 kg
-								</p>
-							</div>
-							<div class="mb-15 col-10 col-sm-6 col-md-5 col-lg-4" data-aos="fade-down" data-aos-delay="450">
-								<svg width="45" height="40" viewBox="0 0 45 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-action-1 mb-6">
-									<path d="M20 2.5C8.95417 2.5 0 11.4542 0 22.5C0 26.1667 0.989584 29.6014 2.7125 32.5556C3.10208 33.2236 3.84444 33.6111 4.61806 33.6111H35.3819C36.1556 33.6111 36.8979 33.2236 37.2875 32.5556C39.0104 29.6014 40 26.1667 40 22.5C40 11.4542 31.0458 2.5 20 2.5ZM20 6.94444C21.0215 6.94444 21.8458 7.64792 22.1056 8.58681C22.0285 8.74375 21.9222 8.88056 21.866 9.05L21.2257 10.9715C20.8694 11.2139 20.4639 11.3889 20.0007 11.3889C18.7736 11.3889 17.7785 10.3937 17.7785 9.16667C17.7785 7.93958 18.7729 6.94444 20 6.94444ZM6.66667 26.9444C5.43958 26.9444 4.44444 25.9493 4.44444 24.7222C4.44444 23.4951 5.43958 22.5 6.66667 22.5C7.89375 22.5 8.88889 23.4951 8.88889 24.7222C8.88889 25.9493 7.89375 26.9444 6.66667 26.9444ZM10 15.8333C8.77292 15.8333 7.77778 14.8382 7.77778 13.6111C7.77778 12.384 8.77292 11.3889 10 11.3889C11.2271 11.3889 12.2222 12.384 12.2222 13.6111C12.2222 14.8382 11.2271 15.8333 10 15.8333ZM27.1368 10.8049L22.8778 23.5826C23.8285 24.3979 24.4444 25.5931 24.4444 26.9444C24.4444 27.7583 24.2097 28.5104 23.8278 29.1667H16.1722C15.7903 28.5104 15.5556 27.7583 15.5556 26.9444C15.5556 24.5875 17.3958 22.6785 19.7153 22.5285L23.975 9.75C24.2646 8.87778 25.2063 8.39931 26.0833 8.69653C26.9563 8.9875 27.4271 9.93194 27.1368 10.8049V10.8049ZM28.1549 14.7771L29.2326 11.5444C29.4736 11.4549 29.7278 11.3896 30 11.3896C31.2271 11.3896 32.2222 12.3847 32.2222 13.6118C32.2222 14.8389 31.2271 15.834 30 15.834C29.2097 15.8333 28.5493 15.3979 28.1549 14.7771ZM33.3333 26.9444C32.1063 26.9444 31.1111 25.9493 31.1111 24.7222C31.1111 23.4951 32.1063 22.5 33.3333 22.5C34.5604 22.5 35.5556 23.4951 35.5556 24.7222C35.5556 25.9493 34.5604 26.9444 33.3333 26.9444Z">
-									</path>
-								</svg>
-								<h5 class="mb-4">
-											Top speed
-								</h5>
-								<p class="mb-0">
-											30km/h
-								</p>
-							</div>
-							<div class="mb-15 col-10 col-sm-6 col-md-5 col-lg-4" data-aos="fade-down" data-aos-delay="600">
-								<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-action-1 mb-6">
-									<path d="M32.0068 15.9305L31.4943 16.8242C31.3068 17.1555 30.9068 17.293 30.5506 17.1617C29.8131 16.8867 29.1381 16.493 28.5443 15.9992C28.2568 15.7617 28.1818 15.343 28.3693 15.018L28.8818 14.1242C28.4506 13.6242 28.1131 13.043 27.8881 12.4117H26.8568C26.4818 12.4117 26.1568 12.143 26.0943 11.768C25.9693 11.018 25.9631 10.2305 26.0943 9.44923C26.1568 9.07423 26.4818 8.79923 26.8568 8.79923H27.8881C28.1131 8.16798 28.4506 7.58673 28.8818 7.08673L28.3693 6.19298C28.1818 5.86798 28.2506 5.44923 28.5443 5.21173C29.1381 4.71798 29.8193 4.32423 30.5506 4.04923C30.9068 3.91798 31.3068 4.05548 31.4943 4.38673L32.0068 5.28048C32.6631 5.16173 33.3318 5.16173 33.9881 5.28048L34.5006 4.38673C34.6881 4.05548 35.0881 3.91798 35.4443 4.04923C36.1818 4.32423 36.8568 4.71798 37.4506 5.21173C37.7381 5.44923 37.8131 5.86798 37.6256 6.19298L37.1131 7.08673C37.5443 7.58673 37.8818 8.16798 38.1068 8.79923H39.1381C39.5131 8.79923 39.8381 9.06798 39.9006 9.44298C40.0256 10.193 40.0318 10.9805 39.9006 11.7617C39.8381 12.1367 39.5131 12.4117 39.1381 12.4117H38.1068C37.8818 13.043 37.5443 13.6242 37.1131 14.1242L37.6256 15.018C37.8131 15.343 37.7443 15.7617 37.4506 15.9992C36.8568 16.493 36.1756 16.8867 35.4443 17.1617C35.0881 17.293 34.6881 17.1555 34.5006 16.8242L33.9881 15.9305C33.3381 16.0492 32.6631 16.0492 32.0068 15.9305V15.9305ZM31.3506 12.2555C33.7568 14.1055 36.5006 11.3617 34.6506 8.95548C32.2443 7.09923 29.5006 9.84923 31.3506 12.2555V12.2555ZM24.1443 21.8742L26.2506 22.9242C26.8818 23.2867 27.1568 24.0555 26.9068 24.743C26.3506 26.2555 25.2568 27.643 24.2443 28.8555C23.7818 29.4117 22.9818 29.5492 22.3506 29.1867L20.5318 28.1367C19.5318 28.993 18.3693 29.6742 17.1006 30.118V32.218C17.1006 32.943 16.5818 33.568 15.8693 33.693C14.3318 33.9555 12.7193 33.968 11.1256 33.693C10.4068 33.568 9.87559 32.9492 9.87559 32.218V30.118C8.60684 29.668 7.44434 28.993 6.44434 28.1367L4.62559 29.1805C4.00059 29.543 3.19434 29.4055 2.73184 28.8492C1.71934 27.6367 0.650587 26.2492 0.0943369 24.743C-0.155663 24.0617 0.119337 23.293 0.750587 22.9242L2.83184 21.8742C2.58809 20.568 2.58809 19.2242 2.83184 17.9117L0.750587 16.8555C0.119337 16.493 -0.161913 15.7242 0.0943369 15.043C0.650587 13.5305 1.71934 12.143 2.73184 10.9305C3.19434 10.3742 3.99434 10.2367 4.62559 10.5992L6.44434 11.6492C7.44434 10.793 8.60684 10.1117 9.87559 9.66798V7.56173C9.87559 6.84298 10.3881 6.21798 11.1006 6.09298C12.6381 5.83048 14.2568 5.81798 15.8506 6.08673C16.5693 6.21173 17.1006 6.83048 17.1006 7.56173V9.66173C18.3693 10.1117 19.5318 10.7867 20.5318 11.643L22.3506 10.593C22.9756 10.2305 23.7818 10.368 24.2443 10.9242C25.2568 12.1367 26.3193 13.5242 26.8756 15.0367C27.1256 15.718 26.8818 16.4867 26.2506 16.8555L24.1443 17.9055C24.3881 19.218 24.3881 20.5617 24.1443 21.8742V21.8742ZM16.7943 23.193C20.4943 18.3805 15.0006 12.8867 10.1881 16.5867C6.48809 21.3992 11.9818 26.893 16.7943 23.193ZM32.0068 34.6117L31.4943 35.5055C31.3068 35.8367 30.9068 35.9742 30.5506 35.843C29.8131 35.568 29.1381 35.1742 28.5443 34.6805C28.2568 34.443 28.1818 34.0242 28.3693 33.6992L28.8818 32.8055C28.4506 32.3055 28.1131 31.7242 27.8881 31.093H26.8568C26.4818 31.093 26.1568 30.8242 26.0943 30.4492C25.9693 29.6992 25.9631 28.9117 26.0943 28.1305C26.1568 27.7555 26.4818 27.4805 26.8568 27.4805H27.8881C28.1131 26.8492 28.4506 26.268 28.8818 25.768L28.3693 24.8742C28.1818 24.5492 28.2506 24.1305 28.5443 23.893C29.1381 23.3992 29.8193 23.0055 30.5506 22.7305C30.9068 22.5992 31.3068 22.7367 31.4943 23.068L32.0068 23.9617C32.6631 23.843 33.3318 23.843 33.9881 23.9617L34.5006 23.068C34.6881 22.7367 35.0881 22.5992 35.4443 22.7305C36.1818 23.0055 36.8568 23.3992 37.4506 23.893C37.7381 24.1305 37.8131 24.5492 37.6256 24.8742L37.1131 25.768C37.5443 26.268 37.8818 26.8492 38.1068 27.4805H39.1381C39.5131 27.4805 39.8381 27.7492 39.9006 28.1242C40.0256 28.8742 40.0318 29.6617 39.9006 30.443C39.8381 30.818 39.5131 31.093 39.1381 31.093H38.1068C37.8818 31.7242 37.5443 32.3055 37.1131 32.8055L37.6256 33.6992C37.8131 34.0242 37.7443 34.443 37.4506 34.6805C36.8568 35.1742 36.1756 35.568 35.4443 35.843C35.0881 35.9742 34.6881 35.8367 34.5006 35.5055L33.9881 34.6117C33.3381 34.7305 32.6631 34.7305 32.0068 34.6117ZM31.3506 30.9305C33.7568 32.7805 36.5006 30.0367 34.6506 27.6305C32.2443 25.7805 29.5006 28.5242 31.3506 30.9305V30.9305Z">
-									</path>
-								</svg>
-								<h5 class="mb-4">
-											Electric motor
-								</h5>
-								<p class="mb-0">
-											BLDC 250W
-								</p>
-							</div>
-							<div class="mb-15 col-10 col-sm-6 col-md-5 col-lg-4 mb-lg-0" data-aos="fade-down" data-aos-delay="600">
-								<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-action-1 mb-6">
-									<path d="M20 0.625C9.29688 0.625 0.625 9.29688 0.625 20C0.625 30.7031 9.29688 39.375 20 39.375C30.7031 39.375 39.375 30.7031 39.375 20C39.375 9.29688 30.7031 0.625 20 0.625ZM20 35.625C11.3672 35.625 4.375 28.6328 4.375 20C4.375 11.3672 11.3672 4.375 20 4.375C28.6328 4.375 35.625 11.3672 35.625 20C35.625 28.6328 28.6328 35.625 20 35.625Z">
-									</path>
-								</svg>
-								<h5 class="mb-4">
-											Front wheel
-								</h5>
-								<p class="mb-0">
-											12 inch
-								</p>
-							</div>
-							<div class="mb-15 mb-md-0 col-10 col-sm-6 col-md-5 col-lg-4" data-aos="fade-down" data-aos-delay="750">
-								<svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-action-1 mb-6">
-									<path d="M19.5 2C9.83266 2 2 9.83266 2 19.5C2 29.1673 9.83266 37 19.5 37C29.1673 37 37 29.1673 37 19.5C37 9.83266 29.1673 2 19.5 2ZM19.5 33.6129C11.7026 33.6129 5.3871 27.2974 5.3871 19.5C5.3871 11.7026 11.7026 5.3871 19.5 5.3871C27.2974 5.3871 33.6129 11.7026 33.6129 19.5C33.6129 27.2974 27.2974 33.6129 19.5 33.6129Z">
-									</path>
-									<path d="M29.7318 22.0234L27.8477 20.9818C28.0379 19.9996 28.0379 18.9919 27.8477 18.0097L29.7318 16.9682C29.9485 16.8496 30.0458 16.604 29.975 16.3754C29.4841 14.8682 28.6482 13.5049 27.5558 12.3702C27.3877 12.1966 27.1135 12.1543 26.9012 12.2728L25.0172 13.3143C24.2255 12.6623 23.3144 12.1585 22.3281 11.8283V9.74943C22.3281 9.51234 22.1557 9.30488 21.9124 9.25407C20.2893 8.90689 18.6263 8.92383 17.0828 9.25407C16.8395 9.30488 16.6671 9.51234 16.6671 9.74943V11.8325C15.6852 12.167 14.7741 12.6708 13.978 13.3186L12.0984 12.277C11.8817 12.1585 11.6119 12.1966 11.4438 12.3744C10.3514 13.5049 9.51552 14.8682 9.0246 16.3796C8.94941 16.6083 9.05113 16.8538 9.26785 16.9724L11.1519 18.0139C10.9617 18.9962 10.9617 20.0038 11.1519 20.9861L9.26785 22.0276C9.05113 22.1462 8.95383 22.3917 9.0246 22.6203C9.51552 24.1276 10.3514 25.4909 11.4438 26.6256C11.6119 26.7992 11.8861 26.8415 12.0984 26.723L13.9825 25.6814C14.7741 26.3334 15.6852 26.8373 16.6715 27.1675V29.2506C16.6715 29.4877 16.844 29.6951 17.0872 29.7459C18.7104 30.0931 20.3733 30.0762 21.9168 29.7459C22.1601 29.6951 22.3326 29.4877 22.3326 29.2506V27.1675C23.3144 26.833 24.2255 26.3292 25.0216 25.6814L26.9057 26.723C27.1224 26.8415 27.3922 26.8034 27.5602 26.6256C28.6526 25.4951 29.4885 24.1318 29.9794 22.6203C30.0458 22.3875 29.9485 22.1419 29.7318 22.0234ZM19.4976 22.8828C17.5472 22.8828 15.9594 21.3629 15.9594 19.4958C15.9594 17.6286 17.5472 16.1087 19.4976 16.1087C21.448 16.1087 23.0358 17.6286 23.0358 19.4958C23.0358 21.3629 21.448 22.8828 19.4976 22.8828Z">
-									</path>
-								</svg>
-								<h5 class="mb-4">
-											Rear wheel
-								</h5>
-								<p class="mb-0">
-											8 inch with hub motor
-								</p>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- Header 3 -->
-					<header class="py-20 bg-bg-3 text-center">
-						<div class="container">
-							<div class="row justify-content-center">
-								<div class="col-xl-10">
-									<h1 class="display-4" data-aos="fade-down" data-aos-delay="0">
-												Find out more on our YouTube channel: Open Bike
-									</h1>
-									<div class="mt-8 mt-lg-12 position-relative" data-aos="fade-down" data-aos-delay="300">
-										<a href="https://www.youtube.com/channel/UCICYZ96I6nIfXqI8s1W-vcw/videos">
-											<img src="i/yt.jpg" srcset="i/yt@2.jpg 2x" alt="" class="img-fluid">
-										</a>
-									</div>
-									<a href="https://www.youtube.com/channel/UCICYZ96I6nIfXqI8s1W-vcw/videos" class="btn btn-action-1 m-xl-5">
-												Go to chanel
-									</a>
-								</div>
-							</div>
-						</div>
-					</header>
-					<!-- Feature 2 -->
-						<section class="py-10 py-lg-20 text-center bg-bg-3">
-							<div class="container">
-								<div class="row justify-content-center" id="info">
-									<div class="col-md-9 col-lg-7 col-xl-6 col-xxl-5">
-										<h2 class="display-5 mb-6" data-aos="fade-down" data-aos-delay="0">
-		Features
-										</h2>
-										<p class="fs-2 mb-15" data-aos="fade-down" data-aos-delay="300">
-													Thanks to Open Architecture, you can modify any parts to make it perfectly suited to your needs.
-										</p>
-									</div>
-								</div>
-								<div class="row justify-content-center">
-									<div class="mb-8 mb-lg-0 col-sm-8 col-md-7 col-lg-4 d-flex" data-aos="fade-down" data-aos-delay="0">
-										<div class="w-100 p-8 p-md-16 p-lg-8 p-xl-12 p-xxl-20 bg-bg-2">
-											<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-action-5 mb-6">
-												<path d="M58.902 25.152L53.5992 19.8492C52.8961 19.1461 51.9422 18.7512 50.9473 18.7512H45V9.375C45 6.26836 42.4816 3.75 39.375 3.75H20.625C17.5184 3.75 15 6.26836 15 9.375V18.75H9.05273C8.05781 18.75 7.10508 19.1449 6.40078 19.848L1.09805 25.152C0.394922 25.8551 0 26.809 0 27.8039V37.5H15V35.625C15 34.5891 15.8391 33.75 16.875 33.75H20.625C21.6609 33.75 22.5 34.5891 22.5 35.625V37.5H37.5V35.625C37.5 34.5891 38.3391 33.75 39.375 33.75H43.125C44.1609 33.75 45 34.5891 45 35.625V37.5H60V27.8027C60 26.809 59.6051 25.8551 58.902 25.152ZM37.5 18.75H22.5V11.25H37.5V18.75ZM45 43.125C45 44.1609 44.1609 45 43.125 45H39.375C38.3391 45 37.5 44.1609 37.5 43.125V41.25H22.5V43.125C22.5 44.1609 21.6609 45 20.625 45H16.875C15.8391 45 15 44.1609 15 43.125V41.25H0V52.5C0 54.5707 1.6793 56.25 3.75 56.25H56.25C58.3207 56.25 60 54.5707 60 52.5V41.25H45V43.125Z">
-												</path>
-											</svg>
-											<h5>
-														No welding required<br>
+			</div>
+		</div>
+	</section>
+	<!-- Footer 8 -->
+	<footer class="bg-bg-3 pt-md-10 py-8 text-center text-lg-start">
+		<div class="container">
+			<div class="row flex-column flex-lg-row align-items-center justify-content-center">
+				<div class="mb-4 mb-lg-0 col-lg-5 order-1 order-lg-0" data-aos="fade-down" data-aos-delay="0">
+					<a href="#info" class="font-heading text-dark-1 me-4">
+						Info
+					</a>
+					<a href="#galery" class="font-heading text-dark-1 mx-4">
+						Galery
+					</a>
+					<a href="#download" class="font-heading text-dark-1 mx-4">
+						Download
+					</a>
+					<a href="#top" class="font-heading text-dark-1 ms-4">
+						Top
+					</a>
+				</div>
+				<div class="mb-4 mb-lg-0 col-lg-2 text-center order-0 order-lg-1" data-aos="fade-down"
+					data-aos-delay="150">
+					<a href="#top">
+						<img src="i/logo.png" srcset="i/logo@2.png 2x" alt="" class="img-fluid">
+					</a>
+				</div>
+			</div>
+			<div class="mt-10 mb-8 border-bottom border-dark-3" data-aos="fade-down" data-aos-delay="450">
+			</div>
+			<p class="text-center fs-5 mb-0" data-aos="fade-down" data-aos-delay="600">
+				Photo by
+				<a
+					href="https://unsplash.com/@tomspentys?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
+					Tom Claes
+				</a>
+				,
+				<a
+					href="https://unsplash.com/@christianw?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
+					Christian Wiediger
+				</a>
+				,
+				<a
+					href="https://unsplash.com/@pabloheimplatz?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
+					Pablo Heimplatz
+				</a>
+				,
+				<a
+					href="https://unsplash.com/@thisisengineering?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
+					ThisisEngineering RAEng
+				</a>
+				,
+				<a
+					href="https://unsplash.com/@corinarainer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
+					Corina Rainer
+				</a>
+				on
+				<a
+					href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
+					Unsplash
+				</a>
+			</p>
+		</div>
+	</footer>
 
-											</h5>
-											<p class="my-4">
-														Only bolted connections were used in this construction<br>
-														It does not even require welding to the battery
-											</p>
-											<a href="#" class="fw-bold">
-											</a>
-										</div>
-									</div>
-									<div class="mb-8 mb-lg-0 col-sm-8 col-md-7 col-lg-4 d-flex" data-aos="fade-down" data-aos-delay="300">
-										<div class="w-100 p-8 p-md-16 p-lg-8 p-xl-12 p-xxl-20 bg-bg-2">
-											<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-action-6 mb-6">
-												<g clip-path="url(#clip0_3:97)">
-													<path d="M58.7227 46.3711L45 32.6484C42.293 29.9414 38.25 29.4141 34.9922 31.0195L22.5 18.5273V11.25L7.5 0L-8.9407e-08 7.5L11.25 22.5H18.5273L31.0195 34.9922C29.4258 38.25 29.9414 42.293 32.6484 45L46.3711 58.7227C48.082 60.4336 50.8477 60.4336 52.5469 58.7227L58.7227 52.5469C60.4219 50.8359 60.4219 48.0703 58.7227 46.3711V46.3711ZM38.8711 26.3672C42.1875 26.3672 45.3047 27.6562 47.6484 30L49.9219 32.2734C51.7734 31.4648 53.5312 30.3398 55.0547 28.8164C59.4023 24.4687 60.8789 18.3516 59.4961 12.7969C59.2383 11.7422 57.9141 11.3789 57.1406 12.1523L48.4219 20.8711L40.4648 19.5469L39.1406 11.5898L47.8594 2.87109C48.6328 2.09766 48.2578 0.773438 47.1914 0.503906C41.6367 -0.867187 35.5195 0.609375 31.1836 4.94531C27.8437 8.28516 26.2734 12.6914 26.3555 17.0859L35.9766 26.707C36.9258 26.4844 37.9102 26.3672 38.8711 26.3672ZM26.6953 35.9766L20.0508 29.332L2.19141 47.2031C-0.738281 50.1328 -0.738281 54.8789 2.19141 57.8086C5.12109 60.7383 9.86719 60.7383 12.7969 57.8086L27.2813 43.3242C26.3906 40.9922 26.1211 38.4492 26.6953 35.9766V35.9766ZM7.5 55.3125C5.95313 55.3125 4.6875 54.0469 4.6875 52.5C4.6875 50.9414 5.94141 49.6875 7.5 49.6875C9.05859 49.6875 10.3125 50.9414 10.3125 52.5C10.3125 54.0469 9.05859 55.3125 7.5 55.3125Z">
-													</path>
-												</g>
-												<defs>
-													<clipPath id="clip0_3:97">
-														<rect width="60" height="60" fill="white">
-														</rect>
-													</clipPath>
-												</defs>
-											</svg>
-											<h5>
-														Build it with basics tools
-											</h5>
-											<p class="my-4">
-														Simple wrench and a screwdriver will be enough<br>
+	<!-- Bootstrap JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
 
-											</p>
-											<a href="#" class="fw-bold">
-											</a>
-										</div>
-									</div>
-									<div class="col-sm-8 col-md-7 col-lg-4 d-flex" data-aos="fade-down" data-aos-delay="600">
-										<div class="w-100 p-8 p-md-16 p-lg-8 p-xl-12 p-xxl-20 bg-bg-2">
-											<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" class="fill-action-8 mb-6">
-												<path d="M21.0008 30.0009C27.6292 30.0009 33.0013 24.6289 33.0013 18.0005C33.0013 11.3721 27.6292 6 21.0008 6C14.3724 6 9.00035 11.3721 9.00035 18.0005C9.00035 24.6289 14.3724 30.0009 21.0008 30.0009ZM29.4012 33.0011H27.8355C25.7541 33.9573 23.4384 34.5011 21.0008 34.5011C18.5632 34.5011 16.2569 33.9573 14.1662 33.0011H12.6005C5.64397 33.0011 0 38.645 0 45.6015V49.5017C0 51.9862 2.0157 54.0019 4.50018 54.0019H30.2731C30.048 53.3643 29.9543 52.6893 30.0293 52.0049L30.6668 46.2953L30.7793 45.2547L31.52 44.514L38.7671 37.2668C36.4702 34.6699 33.1419 33.0011 29.4012 33.0011V33.0011ZM33.6482 46.6235L33.0107 52.3424C32.9075 53.2987 33.7138 54.105 34.6607 53.9925L40.3703 53.355L53.299 40.4263L46.5768 33.7042L33.6482 46.6235V46.6235ZM59.3461 31.2104L55.7928 27.6571C54.9209 26.7852 53.4958 26.7852 52.6239 27.6571L49.08 31.201L48.6957 31.5854L55.4272 38.3075L59.3461 34.3886C60.218 33.5073 60.218 32.0916 59.3461 31.2104V31.2104Z">
-												</path>
-											</svg>
-											<h5>
-														Customizied to your needs
-											</h5>
-											<p class="my-4">
-														You can use different wheels sizes, different battery capacity, different motor type or even change frame shape
-											</p>
-											<a href="#" class="fw-bold">
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</section>
-						<!-- Showcase 2 -->
-							<section class="py-10 py-lg-20 bg-bg-3 text-center" id="galery">
-								<div class="container">
-									<div class="row justify-content-center">
-										<div class="col-md-9 col-lg-7 col-xl-6 col-xxl-5">
-											<h2 class="display-5 mb-6" data-aos="fade-down" data-aos-delay="0">
-														Galery
-											</h2>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-6 mb-6 mb-md-0">
-											<a href="#" class="d-block h-100">
-												<img src="i/showcase-2-1.jpg" srcset="i/showcase-2-1@2x.jpg 2x" alt="" class="d-block w-100 h-100">
-											</a>
-										</div>
-										<div class="col-md-6">
-											<div class="row">
-												<div class="col-6">
-													<a href="#" class="d-block">
-														<img src="i/showcase-2-2.jpg" srcset="i/showcase-2-2@2x.jpg 2x" alt="" class="d-block w-100">
-													</a>
-												</div>
-												<div class="col-6">
-													<a href="#" class="d-block">
-														<img src="i/showcase-2-3.jpg" srcset="i/showcase-2-3@2x.jpg 2x" alt="" class="d-block w-100">
-													</a>
-												</div>
-												<div class="mt-6 col-12">
-													<a href="#" class="d-block">
-														<img src="i/showcase-2-4.jpg" srcset="i/showcase-2-4@2x.jpg 2x" alt="" class="d-block w-100">
-													</a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</section>
-							<!-- Feature 20 -->
-								<section class="py-10 py-lg-20 text-center text-md-start bg-bg-3" id="download">
-									<div class="container">
-										<div class="row justify-content-between mb-lg-20 mb-15">
-											<div class="mb-lg-0 mb-6 col-md-8 col-lg-7 col-xl-6 col-xxl-5">
-												<h2 class="display-5" data-aos="fade-down" data-aos-delay="0">
-															Download
-												</h2>
-											</div>
-											<div class="col-md-8 col-lg-5">
-												<p class="fs-2 mb-0" data-aos="fade-down" data-aos-delay="150">
-															Download all files for 3D printing and laser cut
-												</p>
-											</div>
-										</div>
-										<div class="row justify-content-center">
-											<div class="col-sm-8 col-md-4 mb-15 mb-md-0" data-aos="fade-down" data-aos-delay="450">
-												<img src="i/3d.png" srcset="i/3d@2.png 2x" alt="" class="img-fluid w-100 mb-6">
-												<h4 class="mb-4">
-															Parts for 3D printing
-												</h4>
-												<p class="fs-4 mb-0">
-															Use these files for 3D printing<br>
-															Adjust them if needed
-												</p>
-											</div>
-											<div class="col-sm-8 col-md-4 mb-15 mb-md-0" data-aos="fade-down" data-aos-delay="600">
-												<img src="i/metal.png" srcset="i/metal@2.png 2x" alt="" class="img-fluid w-100 mb-6">
-												<h4 class="mb-4">
-															Metal sheets parts
-												</h4>
-												<p class="fs-4 mb-0">
-															Use these files for laser cut<br>
-															You can also cut manually if you prefer
-												</p>
-											</div>
-											<div class="col-sm-8 col-md-4" data-aos="fade-down" data-aos-delay="750">
-												<img src="i/documents.png" srcset="i/documents@2.png 2x" alt="" class="img-fluid w-100 mb-6">
-												<h4 class="mb-4">
-															Manual
-												</h4>
-												<p class="fs-4 mb-0">
-															Use these files to learn how to buit
-												</p>
-											</div>
-										</div>
-									</div>
-								</section>
-								<!-- Call to action 5 -->
-									<section class="py-10 py-lg-20 bg-bg-3 text-center">
-										<div class="container">
-											<div class="bg-bg-2 rounded-2 p-8 p-md-12">
-												<div class="row justify-content-center" id="contact">
-													<div class="col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-														<h2 class="display-5" data-aos="fade-down" data-aos-delay="0">
-																	Feel free to contact us
-														</h2>
-														<p class="mt-6 mb-8" data-aos="fade-down" data-aos-delay="300">
-																	info@open-bike.pl
-														</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</section>
-									<!-- Footer 8 -->
-										<footer class="bg-bg-3 pt-md-10 py-8 text-center text-lg-start">
-											<div class="container">
-												<div class="row flex-column flex-lg-row align-items-center justify-content-center">
-													<div class="mb-4 mb-lg-0 col-lg-5 order-1 order-lg-0" data-aos="fade-down" data-aos-delay="0">
-														<a href="#info" class="font-heading text-dark-1 me-4">
-																	Info
-														</a>
-														<a href="#galery" class="font-heading text-dark-1 mx-4">
-																	Galery
-														</a>
-														<a href="#download" class="font-heading text-dark-1 mx-4">
-																	Download
-														</a>
-														<a href="#top" class="font-heading text-dark-1 ms-4">
-																	Top
-														</a>
-													</div>
-													<div class="mb-4 mb-lg-0 col-lg-2 text-center order-0 order-lg-1" data-aos="fade-down" data-aos-delay="150">
-														<a href="#top">
-															<img src="i/logo.png" srcset="i/logo@2.png 2x" alt="" class="img-fluid">
-														</a>
-													</div>
-												</div>
-												<div class="mt-10 mb-8 border-bottom border-dark-3" data-aos="fade-down" data-aos-delay="450">
-												</div>
-												<p class="text-center fs-5 mb-0" data-aos="fade-down" data-aos-delay="600">
-															Photo by
-													<a href="https://unsplash.com/@tomspentys?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
-																Tom Claes
-													</a>
-															,
-													<a href="https://unsplash.com/@christianw?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
-																Christian Wiediger
-													</a>
-															,
-													<a href="https://unsplash.com/@pabloheimplatz?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
-																Pablo Heimplatz
-													</a>
-															,
-													<a href="https://unsplash.com/@thisisengineering?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
-																ThisisEngineering RAEng
-													</a>
-															,
-													<a href="https://unsplash.com/@corinarainer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
-																Corina Rainer
-													</a>
-															  on
-													<a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">
-																Unsplash
-													</a>
-												</p>
-											</div>
-										</footer>
+	<!-- AOS 3.0.0-beta.6 plugin JS (Animations) -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
-		<!-- Bootstrap JS -->
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+	<!-- Startup JS (Custom js for all blocks) - Remove ".min" if you want to edit a JS code -->
+	<script src="js/scripts.min.js"></script>
+</body>
 
-		<!-- AOS 3.0.0-beta.6 plugin JS (Animations) -->
-		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-		<!-- Startup JS (Custom js for all blocks) - Remove ".min" if you want to edit a JS code -->
-		<script src="js/scripts.min.js"></script>
-	</body>
 </html>
