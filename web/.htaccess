@@ -1,13 +1,13 @@
-# Cache resources for 1 year
+# Cache resources for 1 Mounth
 <IfModule mod_headers.c>
-    # YEAR
+    # Mounth
     <FilesMatch "\.(jpg|jpeg|png|gif|swf|svg|webp|webm|mp4)$">
-        Header set Cache-Control "max-age=31536000, public"
+        Header set Cache-Control "max-age=2592000, public"
     </FilesMatch>
 
-    # YEAR
+    # Mounth
     <FilesMatch "\.(js|css)$">
-        Header set Cache-Control "max-age=31536000, public"
+        Header set Cache-Control "max-age=2592000, public"
     </FilesMatch>
 </IfModule>
 
